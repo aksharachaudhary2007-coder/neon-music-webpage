@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+     <div class="music-player">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2 class="logo">♫</h2>
+
+            <nav>
+                <a href="#">⌂ <span>Home</span></a>
+                <a href="#">▤ <span>Library</span></a>
+                <a href="#">♫ <span>Playlists</span></a>
+                <a href="#">◉ <span>Radio</span></a>
+            </nav>
+        </aside>
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="header">
+                <button class="menu-btn">☰</button>
+                
+               <input type="search" placeholder="Search songs...">
+                <h1>Music Player</h1>
+                <div class="profile">&#128100;</div>
+            </header>
+
+            <!-- Player and Up Next -->
+            <div class="player-layout">
+
+                <!-- Now Playing -->
+                <section class="now-playing">
+                    <h2>Now Playing</h2>
+
+                    <div class="current-song">
+                        <img src="images/cosmic.jpg" alt="Cosmic Beats">
+
+                        <div class="song-info">
+                            <h2>COSMIC BEATS</h2>
+                            <p>LUNA ECHO</p>
+                        </div>
+                    </div>
+
+                    <!-- Music Controls -->
+                    <div class="controls">
+                        <button aria-label="Shuffle">⤨</button>
+                        <button aria-label="Previous song">⏮</button>
+                        <button class="play-btn" aria-label="Play">▶</button>
+                        <button aria-label="Next song">⏭</button>
+                        <button aria-label="Repeat">⤻</button>
+                    </div>
+
+
+                    <!-- Progress Bar -->
+                    <div class="progress-section">
+                        <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="55"
+                            aria-label="Song progress"
+                        >
+                        <span>08:24</span>
+                    </div>
+
+                    <!-- Volume -->
+                    <div class="volume-section">
+                        <span>🔈</span>
+                        <input type="range" min="0" max="100" value="70"
+                               aria-label="Volume">
+                        <span>🔊</span>
+                    </div>
+                </section>
+
+                <!-- Up Next -->
+                <aside class="up-next">
+                    <h2>Up Next</h2>
+
+                    <div class="song-list">
+
+                        <div class="song">
+                           <img src="images/cosmic.jpg" alt="Cosmic Beats">
+                            <span class="song-title">Cosmic Beats</span>
+                            <span class="duration">0:59</span>
+                        </div>
+
+                        <div class="song">
+                            <img src="images/fight.jpg" alt="The Fight Track">
+                            <span class="song-title">The Fight Track</span>
+                            <span class="duration">0:34</span>
+                        </div>
+
+                        <div class="song">
+                           <img src="images/luna.jpg" alt="Luna Echo">
+                            <span class="song-title">Luna Echo</span>
+                            <span class="duration">0:49</span>
+                        </div>
+
+                        <div class="song">
+                            <img src="https://placehold.co/50x50/24133d/9b8cff?text=4"
+                                 alt="Hello The Whirl cover">
+                            <span class="song-title">Hello The Whirl</span>
+                            <span class="duration">0:23</span>
+                        </div>
+
+                        <div class="song">
+                            <img src="https://placehold.co/50x50/392052/ff8bea?text=5"
+                                 alt="Howl's Don cover">
+                            <span class="song-title">Howl's Don</span>
+                            <span class="duration">0:04</span>
+                        </div>
+
+                        <div class="song">
+                            <img src="https://placehold.co/50x50/24133d/9b8cff?text=6"
+                                 alt="Farenrrt cover">
+                            <span class="song-title">Farenrrt</span>
+                            <span class="duration">0:05</span>
+                        </div>
+
+                        <div class="song">
+                            <img src="https://placehold.co/50x50/392052/ff8bea?text=7"
+                                 alt="Cosmic Beats cover">
+                            <span class="song-title">Cosmic Beats</span>
+                            <span class="duration">0:26</span>
+                        </div>
+
+                        <div class="song">
+                            <img src="https://placehold.co/50x50/24133d/9b8cff?text=8"
+                                 alt="Luna Echo cover">
+                            <span class="song-title">Luna Echo</span>
+                            <span class="duration">0:32</span>
+                        </div>
+
+                    </div>
+                </aside>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>
